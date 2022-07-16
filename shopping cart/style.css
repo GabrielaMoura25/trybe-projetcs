@@ -121,6 +121,7 @@ body {
   flex-grow: 1;
   padding: 10px;
   text-align: center;
+  font-family: Epilogue, sans-serif;
 }
 
 .item .item__image {
