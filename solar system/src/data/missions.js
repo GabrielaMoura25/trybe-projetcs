@@ -81,7 +81,7 @@ const Missions = [
     destination: 'Terra',
   },
   {
-    name: '2001-Mars-Odyssey',
+    name: 'Mars-Odyssey-2001',
     year: '2001',
     country: USA,
     destination: 'Marte',
@@ -93,7 +93,7 @@ const Missions = [
     destination: 'Marte',
   },
   {
-    name: 'Nozomi-(Planeta-B)',
+    name: 'Nozomi-Planeta-B',
     year: '1998',
     country: 'Japão',
     destination: 'Marte',
@@ -117,7 +117,7 @@ const Missions = [
     destination: 'Júpiter',
   },
   {
-    name: 'Cassini/Huygens',
+    name: 'Cassini--Huygens',
     year: '1997',
     country: 'Estados Unidos e Europa',
     destination: 'Saturno',

@@ -12,16 +12,15 @@ html {
 }
 
 .header {
-  position: absolute;
-  width: 692px;
-  height: 150px;
-  left: 374px;
-  top: 101px;
+  position: relative;
+  height: 200px;
+  left: 17%;
+  top: 50%;
   font-family: 'Epilogue';
   font-style: normal;
-  font-weight: 600;
-  font-size: 100px;
-  line-height: 150%;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 120%;
   color: #FFFFFF;
   ;
 }
@@ -34,6 +33,13 @@ html {
   height: 98px;
   left: 164px;
   top: 317px;
+  text-align: center;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1%;
 
   background: rgba(24, 26, 37, 0.5);
   color: #FFFFFF;;
@@ -41,10 +47,6 @@ html {
   border: 1px solid #FFFFFF;
   border-radius: 17px;
 }
-
-/* .plan {
-
-} */
 
 .missoes {
   box-sizing: border-box;
@@ -54,6 +56,13 @@ html {
   height: 99px;
   left: 164px;
   top: 803px;
+  text-align: center;
+
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1%;
   
   background: rgba(24, 26, 37, 0.5);
   color: #FFFFFF;
@@ -62,20 +71,15 @@ html {
   border-radius: 17px;
 }
 
-.mis {
-  position: absolute;
-  width: 205px;
-  height: 75px;
-  left: 619px;
-  top: 815px;
+.linha {
+  width: 350px;
+  position: relative;
+  bottom: 45px;
+  /* height: 0px;
+  left: 557px; */
+  /* top: 1037px; */
   
-  font-family: 'Epilogue';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 50px;
-  line-height: 150%;
-  
-  color: #FFFFFF;
+  border: 1px solid #FFFFFF;
 }
 
 .Apollo-11-c {
@@ -93,34 +97,811 @@ html {
   border-radius: 17px;
 }
 
-.mission-name {
+.Voyager-1-c {
+  box-sizing: border-box;
+
   position: absolute;
-  width: 226px;
-  height: 187px;
-  left: 200px;
-  top: 973px;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 943px;
   
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mars-Pathfinder-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 943px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Estação-Internacional-Espacial-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 1271px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Kepler-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 1266px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Cassini-Huygens-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 1266px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mariner-2-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 1594px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Venera-4-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 1594px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mariner-5-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 1594px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mariner-10-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 1922px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Venera-16-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 1922px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.MESSENGER-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 1922px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Genesis-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 2250px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mars-Odyssey-2001-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 2250px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Mars-Surveyor-98-Lander-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 2250px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Nozomi-Planeta-B-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 2578px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Fobos-1-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 2578px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Fobos-2-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 950px;
+  top: 2578px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Galileo-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 164px;
+  top: 2906px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Cassini--Huygens-c {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 354px;
+  height: 281px;
+  left: 557px;
+  top: 2906px;
+  
+  background: rgba(24, 26, 37, 0.5);
+  mix-blend-mode: hard-light;
+  border: 1px solid #FFFFFF;
+  border-radius: 17px;
+}
+
+.Apollo-11-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
   font-family: 'Epilogue';
   font-style: normal;
   font-weight: 700;
-  font-size: 35px;
-  line-height: 120%;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Voyager-1-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+  
+}
+
+.Mars-Pathfinder-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  letter-spacing: -0.04em;
+  
+  color: #FFFFFF;
+}
+
+.Estação-Internacional-Espacial-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 150%;
+
+  color: #FFFFFF;  
+}
+
+.Kepler-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
 
   color: #FFFFFF;
 }
 
-.mission-year {
-  position: absolute;
-  width: 226px;
-  height: 187px;
-  left: 200px;
-  top: 1084px;
+.Cassini-Huygens-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+
+  color: #FFFFFF;
+}
+
+.Mariner-2-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+
+  color: #FFFFFF;
+}
+
+.Venera-4-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
   
+  color: #FFFFFF;
+}
+
+.Mariner-5-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+
+  color: #FFFFFF;
+}
+
+.Mariner-10-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+  
+}
+
+.Venera-16-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.MESSENGER-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Genesis-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Mars-Odyssey-2001-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Mars-Surveyor-98-Lander-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Nozomi-Planeta-B-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Fobos-1-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Fobos-2-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Galileo-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Cassini--Huygens-n {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 250%;
+  
+  color: #FFFFFF;
+}
+
+.Apollo-11-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
   font-family: 'Epilogue';
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 120%;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Voyager-1-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;  
+}
+
+.Mars-Pathfinder-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+
+  color: #FFFFFF;
+}
+
+.Estação-Internacional-Espacial-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Kepler-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+ 
+  color: #FFFFFF;
+}
+
+.Cassini-Huygens-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Mariner-2-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Venera-4-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Mariner-5-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Mariner-10-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Venera-16-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.MESSENGER-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Genesis-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Mars-Odyssey-2001-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Mars-Surveyor-98-Lander-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Nozomi-Planeta-B-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;  
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Fobos-1-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Fobos-2-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Galileo-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
+  
+  color: #FFFFFF;
+}
+
+.Cassini--Huygens-m {
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 50%;
   
   color: #FFFFFF;
 }
@@ -326,4 +1107,97 @@ html {
   height: 107px;
   left: 1202px;
   top: 522px;
+}
+
+#card:hover {
+  opacity: 0.5;
+}
+
+.miplas:hover {
+  opacity: 0.5;
+}
+
+.Netuno:hover {
+    transform: scale(1.30);
+    animation-play-state: paused;
+}
+
+.Urano:hover {
+  transform: scale(1.30);
+  animation-play-state: paused;
+}
+
+.Saturno:hover {
+  transform: scale(1.0);
+  animation-play-state: paused;
+}
+
+.Júpiter:hover {
+  transform: scale(1.2);
+  animation-play-state: paused;
+}
+
+.Marte:hover {
+  transform: scale(2.0);
+  animation-play-state: paused;
+}
+
+.Terra:hover {
+  transform: scale(1.30);
+  animation-play-state: paused;
+}
+
+.Vênus:hover {
+  transform: scale(1.30);
+  animation-play-state: paused;
+}
+
+.Mercúrio:hover {
+  transform: scale(2.5);
+  animation-play-state: paused;
+}
+
+.Netuno-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+
+.Urano-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Saturno-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Júpiter-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Marte-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Terra-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Vênus-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.Mercúrio-p:hover {
+  transform: scale(1.35);
+  animation-play-state: paused;
+}
+
+.header:hover {
+  opacity: 0.3;
 }
